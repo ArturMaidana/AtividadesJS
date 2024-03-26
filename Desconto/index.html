@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desconto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <h1>Calculadora de Desconto</h1>
+    <div class="divValor">
+        <label for="Valor">Valor do Produto</label>
+        <input type="number" id="valor" placeholder="Informe o valor"/> 
+    </div>
+    <div class="divDesconto">
+        <label for="desconto">Percentual de Desconto</label>
+        <input type="number" id="desconto" placeholder="Informe a % de desconto"/> 
+    </div>
+    <div class="divDescontador">
+        <button onclick="calcDesconto()">Calcular</button>
+    </div> 
+      <span id="resultado"></span>
+    </main>
+    <script src="desconto.js"></script>
+</body>
+</html>
